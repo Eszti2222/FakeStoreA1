@@ -19,7 +19,7 @@ export default class Modell {
         callback(this.#lista);
       })
       .catch((error) => {   
-          hibaCallback(error.message);
+          hibaCallback(error);
       });
   }
   deleteAdat() {}
